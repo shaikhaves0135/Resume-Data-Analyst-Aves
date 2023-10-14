@@ -1,0 +1,57 @@
+Q1. A developer is assigned a task to scrape 1 lakh website pages from a directory site, while scrapping he is facing such hcaptcha, which are placed to stop people from scrapping As a project Coordinator suggest ways to solve this problem ?
+
+ANS: Scraping Websites with hCaptcha:
+Solving hCaptcha challenges during web scraping can be tricky, but there are a few ways to handle this issue:
+
+Use Anti-Captcha Services: Consider using anti-captcha services like Anti-Captcha, 2Captcha, or DeathByCaptcha. These services solve captchas for you, and you can integrate their APIs into your scraping script.
+
+Solving Captchas Automatically: Utilize libraries like Python's selenium with WebDriver to automate solving captchas. Be mindful that this method might violate the terms of service of some websites, so proceed with caution.
+
+Rotate IP Addresses: Rotate your IP addresses and use a pool of proxies. This helps in bypassing captcha challenges as websites won't be able to track a single source making numerous requests.
+
+
+
+
+2. Our client has around 10k linkedin people profiles, he wants to know the estimated income range of these profiles. Suggest ways on how to do this?
+
+ANS: Estimating LinkedIn Profiles' Income Range:
+Estimating income from LinkedIn profiles can be challenging due to privacy concerns. However, you can use the following approach:
+
+Use LinkedIn Premium: If the client has a budget, you can utilize LinkedIn Premium's advanced search filters, which include criteria like job seniority and company size, to estimate income ranges of professionals in specific industries.
+
+
+
+3. We have a list of 1L company names, need to find linkedin company links of these profiles, how to go about this?
+ 
+ANS: Finding LinkedIn Company Links:
+To find LinkedIn company links for a list of company names, you can use LinkedIn's official API (assuming it's available for this purpose) or employ web scraping techniques:
+
+LinkedIn API: If there's a public LinkedIn API, you can use it to search for companies by name and retrieve their LinkedIn profiles.
+
+Web Scraping: Scrape search engine results or LinkedIn directly. Be sure to respect robots.txt and terms of service to avoid legal issues.
+
+
+
+
+4. How to identify list of companies whose tech stack is built on Python. Give names of 5 companies if possible, by your suggested approach ?
+
+ANS: Identifying Companies Using Python:
+To identify companies using Python in their tech stack, consider these methods:
+
+GitHub Repositories: Use GitHub's API or web scraping to search for repositories where Python is a primary language.
+
+Company Websites: Some companies openly share their tech stack on their websites, including the programming languages they use.
+
+Job Boards: Check job boards like LinkedIn, Indeed, or Stack Overflow for job postings that mention Python in the required skills section.
+
+
+
+5. Need to find an API, through which we can send linkedin messages to other linkedin users? 
+
+ANS: Sending LinkedIn Messages via API:
+As of my last update in September 2021, LinkedIn doesn't provide a public API for sending messages to users due to privacy and spam concerns. However, always check LinkedIn's official developer documentation for the most recent updates, as policies might have changed after my last training data. If there's a change, you can find the necessary information in LinkedIn's API documentation.
+
+
+
+
+
